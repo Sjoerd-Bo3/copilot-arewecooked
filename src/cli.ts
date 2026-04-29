@@ -77,6 +77,7 @@ if (options.html && options.terminal) {
   process.exit(1);
 }
 
+
 if (options.since) {
   const parsed = Date.parse(options.since);
   if (!Number.isFinite(parsed)) {

@@ -143,6 +143,12 @@
   .warn-item {
     @apply m-0 text-report-muted;
   }
+  .warning-card {
+    @apply border-l-4 border-l-report-yellow;
+  }
+  .warning-card .card-note {
+    @apply border-t-0 text-sm text-report-yellow;
+  }
   .source-card {
     @apply flex flex-col;
   }
